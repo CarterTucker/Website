@@ -208,6 +208,7 @@ body {
   }
   .contact-choice {
     height: auto;
+    width: 90%;
     padding: 14px 20px;
     flex-wrap: wrap;
     gap: 6px;
@@ -215,6 +216,10 @@ body {
   .contact-center {
     width: 100%;
     justify-content: flex-start;
+  }
+  .contact-info {
+    font-size: 0.8rem;
+    word-break: break-all;
   }
 }
 
