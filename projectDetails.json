@@ -1,0 +1,63 @@
+[
+    {
+        "id": "motorcycle",
+        "title": "Ninja Project Bike",
+        "image": "motorcycle.png",
+        "timeline": "2025-2026",
+        "tags": {},
+        "shortSummary": "A 2007 Ninja 250 documented from complete teardown to a complete rebuild. Custom fabrication, mechanical work, and decisions I made in the restoration process.",
+        "longSummary": "\tI bought a 2007 Kawasaki Ninja EX250F from a bike builder who used it as a parts bike. As such, it was missing a number of components, including lights, the dashboard, sensors, electrical components, a gas tank, and many other parts. \n\tI spent the weekends in my sophomore fall semester changing oil, changing filters, and mending the electronics to get to a point where I could try running the bike. After many attempts, I found that my problem was in the fuel system. I took out the carburetors and took them apart to ultrasonic clean them. At that point, I found that a fuel-to-air mixture screw was stuck in the carb body, completely preventing fuel from getting to a cylinder. The bike would run briefly on ether, but never with gas. Spark plugs were bone dry, which led me to buy a new carburetor\n\tBeginning my sophomore spring, I installed the new carburetor and tuned it, according to the factory specifications. Unfortunately, upon cranking the bike, the spark plugs were still dry, leading me to believe the cylinders aren't pulling a vacuum, and thus were not pulling gas into the cylinders. At this point, I stopped focusing on ignition and started focusing on what would be my next problem: a full-fledged dashboard.\n\tAs I was missing the old dash, I figured it would be the perfect time to modernize the bike with new sensors and a new dash that I could design to display exactly what I wanted to see. I started by exploring how I could read the engine RPM without putting sensors inside the engine. I first used an Arduino Nano to try to catch ignition signals through optocouplers, but I had unreliable results. Thus, I moved to using hall-effect sensors, which I planned to use to measure speed (by putting magnets on the tire, creating an encoder). This experiment is still in its early stages.\n\n\tCheck out the GitHub for more details and pictures!",
+        "repoURL": "https://github.com/CarterTucker/2007-Ninja-Project"
+    },
+    {
+        "id": "football-predictor",
+        "title": "CFP Championship Predictor",
+        "image": "CFB_leaderboard.png",
+        "timeline": "Janurary 2026",
+        "tags": {},
+        "shortSummary": "A college football outcome predictor built with Python. Trained on historical game data to forecast the College Football Playoff.",
+        "longSummary": "Longer descriptions are to come. Check out the GitHub page above for more details!",
+        "repoURL": "https://github.com/CarterTucker/College-Football-Predictor"
+    },
+    {
+        "id": "desktop-speaker",
+        "title": "Desktop Speaker",
+        "image": "speaker_cross_section.png",
+        "timeline": "2026",
+        "tags": {},
+        "shortSummary": "A bass-reflex speaker enclosure built from scratch, backed by Helmholtz resonator research, a semeseter of experimentation, and results-driven iteration.",
+        "longSummary": "Longer descriptions are to come. Check out the GitHub page above for more details!",
+        "repoURL": "https://github.com/CarterTucker/Desktop-Speaker"
+    },
+    {
+        "id": "aero-camper",
+        "title": "Aerodynamic Camper",
+        "image": "Camper_CAD.png",
+        "timeline": "2024-2025",
+        "tags": {},
+        "shortSummary": "A teardrop-profile camper designed to be as aerodynamic as a Prius, and three times lighter.",
+        "longSummary": "Longer descriptions are to come. Check out the GitHub page above for more details!",
+        "repoURL": "https://github.com/CarterTucker/Teardrop-Camper-Project"
+    },
+    {
+        "id": "guido",
+        "title": "2.007 Competition Robot",
+        "image": "Guido_CAD.png",
+        "timeline": "2026",
+        "tags": {},
+        "shortSummary": "A task robot designed to complete tire changes on a model F1 car for the F1-themed Design and Manufacturing I competition at MIT.",
+        "longSummary": "Longer descriptions are to come. Check out the GitHub page above for more details!",
+        "repoURL": "https://github.com/CarterTucker"
+    },
+    {
+        "id": "metamaterial",
+        "title": "IP-Brix Metamaterial",
+        "image": "2002_Metamaterial_test.png",
+        "timeline": "2026",
+        "tags": {},
+        "shortSummary": "A low-density, tesselated unit cube-based metamaterial designed to optimize stiffness and post-failure toughness.",
+        "longSummary": "Longer descriptions are to come. Check out the GitHub page above for more details!",
+        "repoURL": "https://github.com/CarterTucker/"
+    }
+    
+]

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Website Title -->
+        <title>Carter's Page</title>
+
+        <!-- Fonts & Favicon -->
+        <link rel="stylesheet" href="projects.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="images/8bit_favicon.png">
+    </head>
+
+    <body>
+
+        <!-- Navbar -->
+        <nav class="navbar">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <div class="dropdown glass-element">
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="#">About</a>
+                <a href="index.html#contact">Contact</a>
+            </div>
+        </nav>
+
+        <div id="projects-grid"></div>
+
+        <div id="modal-backdrop">
+            <div id="modal" class="glass-element">
+
+                <div id="modal-top">
+                    <div id="modal-title"></div>
+                    <div id="modal-top-right">
+                        <a id="modal-github" href="#" target="_blank" class="small-button glass-element">GitHub ↗</a>
+                        <button id="modal-close" class="glass-element" onclick="closeModal()">✕</button>
+                    </div>
+                </div>
+
+                <div id="modal-body">
+                    <img id="modal-image" src="" alt="">
+                    <p id="modal-description"></p>
+                </div>
+
+            </div>
+        </div>
+        
+        <script src="projects.js"></script>
+        
+    </body>
+
+</html>
+

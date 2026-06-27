@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- WEBSITE TITLE -->
+        <title>Carter's Page</title>
+
+        <!-- FONTS & FAVICON -->
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+        <link rel="icon" type="image/x-icon" href="images/8bit_favicon.png">
+    </head>
+
+    <body>
+
+        <!-- NAVBAR -->
+        <nav class="navbar">
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+
+            <div class="dropdown glass-element">
+                <a href="index.html">Home</a>
+                <a href="projects.html">Projects</a>
+                <a href="#">About</a>
+                <a href="index.html#contact">Contact</a>
+            </div>
+        </nav>
+
+        <!-- NAME & FALLING BINARY -->
+        <div class="landing-page">
+            <canvas id="matrix"></canvas>
+            <div class="name">
+                Carter Tucker
+            </div>
+        </div>
+
+        <!-- PAGE DIVIDER -->
+        <div class="divider"></div>
+        
+        <!-- PROJECT PREVIEW SECTION (auto-populated by JS)-->
+        <div class="project-preview-page">
+            <div class="section-title">Projects</div>
+            <div id="projects-grid"></div>
+            <a class="glass-element small-button" href="projects.html">See more!</a>
+        </div>
+
+        <!-- PAGE DIVIDER -->
+        <div class="divider"></div>
+
+        <!-- CONTACT SECTION -->
+        <div id="contact" class="contact-section">
+            <div class="section-title">Contact</div>
+
+            <!-- EMAIL (auto-copies w/ confirmation)-->
+            <div class="contact-choice glass-element">
+                <span class="contact-label">Email</span>
+                <div class="contact-center">
+                <button onclick="copyText(this, 'carterltucker@gmail.com')" class="contact-info">
+                    carterltucker@gmail.com
+                </button>
+                </div>
+                <span class="copy-check" aria-hidden="true">✓</span>
+            </div>
+            
+            <!-- LINKEDIN (goes to page) -->
+            <div class="contact-choice glass-element">
+                <span class="contact-label">LinkedIn</span>
+                <div class="contact-center">
+                <a href="https://linkedin.com/in/carter-tucker-36083b32a" target="_blank" class="contact-info">
+                    linkedin.com/in/CarterTucker
+                </a>
+                </div>
+                <span class="copy-check" aria-hidden="true"></span>
+            </div>
+            
+            <!-- GITHUB (goes to page) -->
+            <div class="contact-choice glass-element">
+                <span class="contact-label">GitHub</span>
+                <div class="contact-center">
+                <a href="https://github.com/CarterTucker" target="_blank" class="contact-info">
+                    github.com/CarterTucker
+                </a>
+                </div>
+                <span class="copy-check" aria-hidden="true"></span>
+            </div>
+            
+            <!-- RESUME (opens resume on click)-->
+            <a href="resume\Tucker_C_Resume_6_3_26.pdf" target="_blank" class="glass-element small-button">Take my Resume!</a>
+        </div>
+
+        <script src="index.js"></script>
+        
+    </body>
+
+</html>
+
