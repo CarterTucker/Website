@@ -25,7 +25,6 @@ function openModal(project) {
     document.getElementById('modal-image').src = `images/${project.image}`;
     document.getElementById('modal-description').textContent = project.longSummary;
     document.getElementById('modal-github').href = project.repoURL;
-    document.getElementById('modal-github').classList.add('smallButton');
     document.getElementById('modal-backdrop').classList.add('open');
 }
 
